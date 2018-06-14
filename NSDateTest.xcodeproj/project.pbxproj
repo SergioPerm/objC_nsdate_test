@@ -13,6 +13,7 @@
 		845D3E9E20D2CF5A00CDD124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D3E9D20D2CF5A00CDD124 /* main.m */; };
 		845D3EA820D2CF5A00CDD124 /* NSDateTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D3EA720D2CF5A00CDD124 /* NSDateTestTests.m */; };
 		845D3EB320D2CF5A00CDD124 /* NSDateTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D3EB220D2CF5A00CDD124 /* NSDateTestUITests.m */; };
+		845D3EC220D2E49300CDD124 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D3EC120D2E49200CDD124 /* Object.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		845D3EAE20D2CF5A00CDD124 /* NSDateTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDateTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D3EB220D2CF5A00CDD124 /* NSDateTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateTestUITests.m; sourceTree = "<group>"; };
 		845D3EB420D2CF5A00CDD124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845D3EC020D2E49200CDD124 /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		845D3EC120D2E49200CDD124 /* Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				845D3E9920D2CF5A00CDD124 /* LaunchScreen.storyboard */,
 				845D3E9C20D2CF5A00CDD124 /* Info.plist */,
 				845D3E9D20D2CF5A00CDD124 /* main.m */,
+				845D3EC020D2E49200CDD124 /* Object.h */,
+				845D3EC120D2E49200CDD124 /* Object.m */,
 			);
 			path = NSDateTest;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D3EC220D2E49300CDD124 /* Object.m in Sources */,
 				845D3E9E20D2CF5A00CDD124 /* main.m in Sources */,
 				845D3E9620D2CF5700CDD124 /* AppDelegate.m in Sources */,
 			);
